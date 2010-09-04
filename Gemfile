@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0.rc'
+gem 'rails', '3.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -13,6 +13,7 @@ end
 
 group :test do
   gem 'rspec', '2.0.0.beta.18'
+  gem 'spork', '0.8.4'
 end
 
 # Use unicorn as the web server
